@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+  /*border: 1px solid red;*/
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+th, td{
+  font-size: 23px;
+  padding: 5px 15px;
+}
+canvas{
+  border: 2px solid black;
+}
+table button{
+  font-size: 15px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+  border-bottom: #416456 4px solid;
+	padding-bottom: 60px;
+	margin-top: 50px;
+
+}
+.table thead th{
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.name1{
+  background: rgba(255, 0, 0, 0.7);
+}
+.name2{
+  background: rgba(0, 0, 255, 0.7);
+}
+.col1{
+  background: rgba(125, 0, 0, 0.05)
+}
+.col2{
+  background: rgba(0, 0, 125, 0.05)
+}
+
+
+.verticalCenter{
+  position: absolute;
+  top: 50%;  
+  transform: translateY(-50%);
+}
+.vertHorCent{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.getImg{
+  background: url('../public/img/12.png') no-repeat 0 -300px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+input[type=file]{
+  width:90px;
+  color:transparent;
+}
