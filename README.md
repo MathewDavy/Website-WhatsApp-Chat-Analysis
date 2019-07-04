@@ -1,4 +1,5 @@
 # WhatsApp-Chat-Analysis
+Completed: July 4, 2019
 
 This is a website I built in my spare time. 
 
